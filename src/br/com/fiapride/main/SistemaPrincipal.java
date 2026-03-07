@@ -36,7 +36,7 @@ public class SistemaPrincipal {
         System.out.println("Tamanho atual: " + lapis1.getTamanho() + "cm"); // continua 12.0
 
         // Tentativa 3: acesso direto ao atributo (ERRO de compilação)
-        // lapis1.tamanho = -5.0; // ← descomente para ver: 'tamanho has private access'
+        lapis1.tamanho = -5.0;
 
         // Tentativa 4: valor válido — deve funcionar normalmente
         System.out.print("Tentativa com 18.0 cm (válido): ");
