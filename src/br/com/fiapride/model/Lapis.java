@@ -11,6 +11,11 @@ public Lapis(String cor, boolean pontaAfiada) {
     this.cor = cor;
     this.pontaAfiada = false;
     this.tamanho = 0.0;
+
+public Lapis(boolean pontaAfiada) {
+    this.pontaAfiada = false;
+    System.out.println("Registro inicial: A ponta" + this.pontaAfiada);
+}
 }
 public String getCor() {
     return cor;
